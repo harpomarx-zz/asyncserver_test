@@ -2,6 +2,7 @@
 """ Files containing views for asyncserver project. """
 
 from aiohttp import web
+import aiohttp_jinja2
 
 async def handle(request):
     """
@@ -32,3 +33,17 @@ async def wshandler(request):
             break
 
     return ws
+
+
+async def template_handler(request):
+    """
+
+    :param request:
+    :return:
+    """
+
+    print(type(request))
+    response = aiohttp_jinja2.render_template('base_template.html', request, {})
+    print(response)
+    response.headers['Content-Language'] = 'en'
+    return response
