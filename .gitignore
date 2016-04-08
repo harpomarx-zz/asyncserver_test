@@ -1,0 +1,12 @@
+*.pyc
+bin/
+include/
+local/
+logs/
+build/
+uwsgi.ini
+config.py
+docs/build
+test
+.idea/
+.ipynb_checkpoints/

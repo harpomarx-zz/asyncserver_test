@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+""" Main runner for asyncserver project. """
+
 from aiohttp import web
 from urls import routes
 
