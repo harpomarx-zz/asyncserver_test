@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-""" Setting files for asyncserver."""
+""" Settings for asyncserver."""
 
 import os
 
