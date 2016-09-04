@@ -11,3 +11,4 @@ test
 .idea/
 .ipynb_checkpoints/
 browse.VC.db
+/tests/.ipynb_checkpoints/
